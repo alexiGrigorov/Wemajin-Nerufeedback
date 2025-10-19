@@ -26,40 +26,23 @@
     />
     <meta name="designer" content="Alexi GRIGOROV" />
     <!-- Favicon & manifest -->
-    <link
-      rel="icon"
-      href="{{ site.baseurl }}/favicon.ico"
-      type="image/x-icon"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="{{ site.baseurl }}/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="{{ site.baseurl }}/favicon-16x16.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="{{ site.baseurl }}/apple-touch-icon.png"
-    />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link
       rel="icon"
       type="image/png"
       sizes="192x192"
-      href="{{ site.baseurl }}/android-chrome-192x192.png"
+      href="/android-chrome-192x192.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="512x512"
-      href="{{ site.baseurl }}/android-chrome-512x512.png"
+      href="/android-chrome-512x512.png"
     />
-    <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest" />
+    <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#7a4ec7" />
     <!-- Social sharing -->
     <meta property="og:type" content="website" />
@@ -113,7 +96,7 @@
     <header class="sticky-top bg-white shadow-glow-primary-300-m">
       <div class="wrapper flex justify-between align-start p-b-m gap-s">
         <a
-          href="{{ site.baseurl }}/"
+          href="/"
           class="logo-link no-underline flex align-center gap-2xs"
           aria-label="Nerufeedback"
         >
@@ -226,18 +209,9 @@
 
           <ul class="main-nav" role="list">
             <li>
-              <a
-                class="btn btn-nav"
-                href="{{ site.baseurl }}/"
-                aria-current="page"
-                >Accueil</a
-              >
+              <a class="btn btn-nav" href="/" aria-current="page">Accueil</a>
             </li>
-            <li>
-              <a class="btn btn-nav" href="{{ site.baseurl }}/a-propos"
-                >À propos</a
-              >
-            </li>
+            <li><a class="btn btn-nav" href="/a-propos">À propos</a></li>
 
             <!-- Submenu -->
             <li>
@@ -250,58 +224,54 @@
                 </summary>
                 <ul role="list">
                   <li>
-                    <a
-                      class="btn btn-nav"
-                      href="{{ site.baseurl }}/les-bienfaits"
+                    <a class="btn btn-nav" href="/les-bienfaits"
                       >Tous les bienfaits</a
                     >
                   </li>
                   <li>
                     <a
                       class="btn btn-nav"
-                      href="{{ site.baseurl }}/les-bienfaits/stress-et-anxiete"
+                      href="/les-bienfaits/stress-et-anxiete"
                       >Stress et anxiété</a
                     >
                   </li>
                   <li>
                     <a
                       class="btn btn-nav"
-                      href="{{ site.baseurl }}/les-bienfaits/sommeil-et-fatigue"
+                      href="/les-bienfaits/sommeil-et-fatigue"
                       >Sommeil et fatigue</a
                     >
                   </li>
                   <li>
                     <a
                       class="btn btn-nav"
-                      href="{{ site.baseurl }}/les-bienfaits/concentration-et-clarte-mentale"
+                      href="/les-bienfaits/concentration-et-clarte-mentale"
                       >Concentration et clarté mentale</a
                     >
                   </li>
                   <li>
                     <a
                       class="btn btn-nav"
-                      href="{{ site.baseurl }}/les-bienfaits/enfants-et-adolescents"
+                      href="/les-bienfaits/enfants-et-adolescents"
                       >Enfants et adolescent·e·s</a
                     >
                   </li>
                   <li>
                     <a
                       class="btn btn-nav"
-                      href="{{ site.baseurl }}/les-bienfaits/performance-et-developpement"
+                      href="/les-bienfaits/performance-et-developpement"
                       >Performance et développement</a
                     >
                   </li>
                   <li>
-                    <a
-                      class="btn btn-nav"
-                      href="{{ site.baseurl }}/les-bienfaits/neuroatypique"
+                    <a class="btn btn-nav" href="/les-bienfaits/neuroatypique"
                       >Neuroatypique</a
                     >
                   </li>
                   <li>
                     <a
                       class="btn btn-nav"
-                      href="{{ site.baseurl }}/les-bienfaits/degenerescence-cognitive"
+                      href="/les-bienfaits/degenerescence-cognitive"
                       >Dégénérescence cognitive</a
                     >
                   </li>
@@ -309,19 +279,9 @@
               </details>
             </li>
 
-            <li>
-              <a class="btn btn-nav" href="{{ site.baseurl }}/actualites"
-                >Actualités</a
-              >
-            </li>
-            <li>
-              <a class="btn btn-nav" href="{{ site.baseurl }}/tarifs">Tarifs</a>
-            </li>
-            <li>
-              <a class="btn btn-nav" href="{{ site.baseurl }}/contact"
-                >Contact</a
-              >
-            </li>
+            <li><a class="btn btn-nav" href="/actualites">Actualités</a></li>
+            <li><a class="btn btn-nav" href="/tarifs">Tarifs</a></li>
+            <li><a class="btn btn-nav" href="/contact">Contact</a></li>
           </ul>
         </nav>
 
@@ -429,13 +389,8 @@
               </h1>
             </div>
             <div class="flex gap-xs flex-wrap">
-              <a href="{{ site.baseurl }}/contact" class="btn btn-primary"
-                >Réserver une séance</a
-              >
-              <a
-                href="{{ site.baseurl }}/a-propos"
-                class="btn btn-outline-primary"
-              >
+              <a href="/contact" class="btn btn-primary">Réserver une séance</a>
+              <a href="/a-propos" class="btn btn-outline-primary">
                 Découvrir la méthode
               </a>
             </div>
@@ -444,29 +399,32 @@
           <picture class="hero-picture">
             <source
               type="image/avif"
-              srcset="{{ site.baseurl }}/assets/images/home/hero/hero-480.avif   480w,
-                {{ site.baseurl }}/assets/images/home/hero/hero-768.avif   768w,
-                {{ site.baseurl }}/assets/images/home/hero/hero-1024.avif 1024w,
-                {{ site.baseurl }}/assets/images/home/hero/hero-1200.avif 1200w
+              srcset="
+                /assets/images/home/hero/hero-480.avif   480w,
+                /assets/images/home/hero/hero-768.avif   768w,
+                /assets/images/home/hero/hero-1024.avif 1024w,
+                /assets/images/home/hero/hero-1200.avif 1200w
               "
               sizes="(min-width: 1200px) 1200px, 100vw"
             />
             <source
               type="image/webp"
-              srcset="{{ site.baseurl }}/assets/images/home/hero/hero-480.webp   480w,
-                {{ site.baseurl }}/assets/images/home/hero/hero-768.webp   768w,
-                {{ site.baseurl }}/assets/images/home/hero/hero-1024.webp 1024w,
-                {{ site.baseurl }}/assets/images/home/hero/hero-1200.webp 1200w
+              srcset="
+                /assets/images/home/hero/hero-480.webp   480w,
+                /assets/images/home/hero/hero-768.webp   768w,
+                /assets/images/home/hero/hero-1024.webp 1024w,
+                /assets/images/home/hero/hero-1200.webp 1200w
               "
               sizes="(min-width: 1200px) 1200px, 100vw"
             />
             <img
               alt="Une thérapeute montre des données sur un ordinateur à une jeune patiente portant un casque de neurofeedback."
-              src="{{ site.baseurl }}/assets/images/home/hero/hero-1024.jpg"
-              srcset="{{ site.baseurl }}/assets/images/home/hero/hero-480.jpg   480w,
-                {{ site.baseurl }}/assets/images/home/hero/hero-768.jpg   768w,
-                {{ site.baseurl }}/assets/images/home/hero/hero-1024.jpg 1024w,
-                {{ site.baseurl }}/assets/images/home/hero/hero-1200.jpg 1200w
+              src="/assets/images/home/hero/hero-1024.jpg"
+              srcset="
+                /assets/images/home/hero/hero-480.jpg   480w,
+                /assets/images/home/hero/hero-768.jpg   768w,
+                /assets/images/home/hero/hero-1024.jpg 1024w,
+                /assets/images/home/hero/hero-1200.jpg 1200w
               "
               sizes="(min-width: 1200px) 1200px, 100vw"
               width="1024"
@@ -506,31 +464,31 @@
               <source
                 type="image/avif"
                 srcset="
-                  {{ site.baseurl }}/assets/images/home/portrait/portrait-480.avif   480w,
-                  {{ site.baseurl }}/assets/images/home/portrait/portrait-768.avif   768w,
-                  {{ site.baseurl }}/assets/images/home/portrait/portrait-1024.avif 1024w,
-                  {{ site.baseurl }}/assets/images/home/portrait/portrait-1200.avif 1200w
+                  /assets/images/home/portrait/portrait-480.avif   480w,
+                  /assets/images/home/portrait/portrait-768.avif   768w,
+                  /assets/images/home/portrait/portrait-1024.avif 1024w,
+                  /assets/images/home/portrait/portrait-1200.avif 1200w
                 "
                 sizes="(min-width: 1200px) 1200px, 100vw"
               />
               <source
                 type="image/webp"
                 srcset="
-                  {{ site.baseurl }}/assets/images/home/portrait/portrait-480.webp   480w,
-                  {{ site.baseurl }}/assets/images/home/portrait/portrait-768.webp   768w,
-                  {{ site.baseurl }}/assets/images/home/portrait/portrait-1024.webp 1024w,
-                  {{ site.baseurl }}/assets/images/home/portrait/portrait-1200.webp 1200w
+                  /assets/images/home/portrait/portrait-480.webp   480w,
+                  /assets/images/home/portrait/portrait-768.webp   768w,
+                  /assets/images/home/portrait/portrait-1024.webp 1024w,
+                  /assets/images/home/portrait/portrait-1200.webp 1200w
                 "
                 sizes="(min-width: 1200px) 1200px, 100vw"
               />
               <img
                 alt="Portrait de Mme Marjory Fazille, praticienne en neurofeedback."
-                src="{{ site.baseurl }}/assets/images/home/portrait/portrait-1024.jpg"
+                src="/assets/images/home/portrait/portrait-1024.jpg"
                 srcset="
-                  {{ site.baseurl }}/assets/images/home/portrait/portrait-480.jpg   480w,
-                  {{ site.baseurl }}/assets/images/home/portrait/portrait-768.jpg   768w,
-                  {{ site.baseurl }}/assets/images/home/portrait/portrait-1024.jpg 1024w,
-                  {{ site.baseurl }}/assets/images/home/portrait/portrait-1200.jpg 1200w
+                  /assets/images/home/portrait/portrait-480.jpg   480w,
+                  /assets/images/home/portrait/portrait-768.jpg   768w,
+                  /assets/images/home/portrait/portrait-1024.jpg 1024w,
+                  /assets/images/home/portrait/portrait-1200.jpg 1200w
                 "
                 sizes="(min-width: 1200px) 1200px, 100vw"
                 width="1024"
@@ -553,7 +511,7 @@
               accompagner chacun·e vers plus d'équilibre et de clarté mentale.
             </p>
 
-            <a href="{{ site.baseurl }}/contact" class="btn btn-outline-primary"
+            <a href="/contact" class="btn btn-outline-primary"
               >Prendre contact</a
             >
           </div>
@@ -786,7 +744,7 @@
               <h3>Stress et anxiété</h3>
               <p>Retrouver un apaisement durable.</p>
               <a
-                href="{{ site.baseurl }}/les-bienfaits/stress-et-anxiete"
+                href="/les-bienfaits/stress-et-anxiete"
                 class="btn btn-link text-brand no-underline"
                 >En savoir plus</a
               >
@@ -818,7 +776,7 @@
               <h3>Sommeil et fatigue</h3>
               <p>Améliorer la qualité du repos.</p>
               <a
-                href="{{ site.baseurl }}/les-bienfaits/sommeil-et-fatigue"
+                href="/les-bienfaits/sommeil-et-fatigue"
                 class="btn btn-link text-brand no-underline"
                 >En savoir plus</a
               >
@@ -847,7 +805,7 @@
               <h3>Concentration et clarté mentale</h3>
               <p>Renforcer l'attention au quotidien.</p>
               <a
-                href="{{ site.baseurl }}/les-bienfaits/concentration-et-clarte-mentale"
+                href="/les-bienfaits/concentration-et-clarte-mentale"
                 class="btn btn-link text-brand no-underline"
                 >En savoir plus</a
               >
@@ -870,7 +828,7 @@
               <h3>Enfants et adolescent·e·s</h3>
               <p>Accompagnement doux et adapté.</p>
               <a
-                href="{{ site.baseurl }}/les-bienfaits/enfants-et-adolescents"
+                href="/les-bienfaits/enfants-et-adolescents"
                 class="btn btn-link text-brand no-underline"
                 >En savoir plus</a
               >
@@ -899,7 +857,7 @@
               <h3>Performance et développement</h3>
               <p>Optimiser ses ressources internes.</p>
               <a
-                href="{{ site.baseurl }}/les-bienfaits/performance-et-developpement"
+                href="/les-bienfaits/performance-et-developpement"
                 class="btn btn-link text-brand no-underline"
                 >En savoir plus</a
               >
@@ -934,7 +892,7 @@
               <h3>Neuroatypique</h3>
               <p>Respecter chaque singularité.</p>
               <a
-                href="{{ site.baseurl }}/les-bienfaits/neuroatypique"
+                href="/les-bienfaits/neuroatypique"
                 class="btn btn-link text-brand no-underline"
                 >En savoir plus</a
               >
@@ -966,15 +924,13 @@
               <h3>Dégénérescence cognitive</h3>
               <p>Confort et stimulation douce.</p>
               <a
-                href="{{ site.baseurl }}/les-bienfaits/degenerescence-cognitive"
+                href="/les-bienfaits/degenerescence-cognitive"
                 class="btn btn-link text-brand no-underline"
                 >En savoir plus</a
               >
             </li>
           </ul>
-          <a href="{{ site.baseurl }}/contact" class="btn btn-primary"
-            >Parler de mes objectifs</a
-          >
+          <a href="/contact" class="btn btn-primary">Parler de mes objectifs</a>
         </div>
       </section>
       <div class="bg-neural-pattern-primary-50">
@@ -1171,7 +1127,7 @@
         <section id="news" class="wrapper flow-m">
           <div class="flex justify-between align-center">
             <h2>Actualités</h2>
-            <a href="{{ site.baseurl }}/actualites" class="btn btn-primary"
+            <a href="/actualites" class="btn btn-primary"
               >Voir plus d'articles</a
             >
           </div>
@@ -1182,31 +1138,31 @@
                   <source
                     type="image/avif"
                     srcset="
-                      {{ site.baseurl }}/assets/images/articles/2025/october/october-320.avif 320w,
-                      {{ site.baseurl }}/assets/images/articles/2025/october/october-480.avif 480w,
-                      {{ site.baseurl }}/assets/images/articles/2025/october/october-640.avif 640w,
-                      {{ site.baseurl }}/assets/images/articles/2025/october/october-800.avif 800w
+                      /assets/images/articles/2025/october/october-320.avif 320w,
+                      /assets/images/articles/2025/october/october-480.avif 480w,
+                      /assets/images/articles/2025/october/october-640.avif 640w,
+                      /assets/images/articles/2025/october/october-800.avif 800w
                     "
                     sizes="(min-width: 1200px) 400px, 33.3vw"
                   />
                   <source
                     type="image/webp"
                     srcset="
-                      {{ site.baseurl }}/assets/images/articles/2025/october/october-320.webp 320w,
-                      {{ site.baseurl }}/assets/images/articles/2025/october/october-480.webp 480w,
-                      {{ site.baseurl }}/assets/images/articles/2025/october/october-640.webp 640w,
-                      {{ site.baseurl }}/assets/images/articles/2025/october/october-800.webp 800w
+                      /assets/images/articles/2025/october/october-320.webp 320w,
+                      /assets/images/articles/2025/october/october-480.webp 480w,
+                      /assets/images/articles/2025/october/october-640.webp 640w,
+                      /assets/images/articles/2025/october/october-800.webp 800w
                     "
                     sizes="(min-width: 1200px) 400px, 33.3vw"
                   />
                   <img
                     alt="Femme détendue assise près d'une fenêtre, dans une ambiance apaisante"
-                    src="{{ site.baseurl }}/assets/images/articles/2025/october/october-640.jpg"
+                    src="/assets/images/articles/2025/october/october-640.jpg"
                     srcset="
-                      {{ site.baseurl }}/assets/images/articles/2025/october/october-320.jpg 320w,
-                      {{ site.baseurl }}/assets/images/articles/2025/october/october-480.jpg 480w,
-                      {{ site.baseurl }}/assets/images/articles/2025/october/october-640.jpg 640w,
-                      {{ site.baseurl }}/assets/images/articles/2025/october/october-800.jpg 800w
+                      /assets/images/articles/2025/october/october-320.jpg 320w,
+                      /assets/images/articles/2025/october/october-480.jpg 480w,
+                      /assets/images/articles/2025/october/october-640.jpg 640w,
+                      /assets/images/articles/2025/october/october-800.jpg 800w
                     "
                     sizes="(min-width: 1200px) 400px, 33.3vw"
                     width="640"
@@ -1224,7 +1180,7 @@
                   face aux situations exigeantes.
                 </p>
                 <a
-                  href="{{ site.baseurl }}/actualites/2025/10"
+                  href="/actualites/2025/10"
                   class="btn btn-link text-brand no-underline p-be-m p-i-m"
                   >Lire la suite</a
                 >
@@ -1236,31 +1192,31 @@
                   <source
                     type="image/avif"
                     srcset="
-                      {{ site.baseurl }}/assets/images/articles/2025/september/september-320.avif 320w,
-                      {{ site.baseurl }}/assets/images/articles/2025/september/september-480.avif 480w,
-                      {{ site.baseurl }}/assets/images/articles/2025/september/september-640.avif 640w,
-                      {{ site.baseurl }}/assets/images/articles/2025/september/september-800.avif 800w
+                      /assets/images/articles/2025/september/september-320.avif 320w,
+                      /assets/images/articles/2025/september/september-480.avif 480w,
+                      /assets/images/articles/2025/september/september-640.avif 640w,
+                      /assets/images/articles/2025/september/september-800.avif 800w
                     "
                     sizes="(min-width: 1200px) 400px, 33.3vw"
                   />
                   <source
                     type="image/webp"
                     srcset="
-                      {{ site.baseurl }}/assets/images/articles/2025/september/september-320.webp 320w,
-                      {{ site.baseurl }}/assets/images/articles/2025/september/september-480.webp 480w,
-                      {{ site.baseurl }}/assets/images/articles/2025/september/september-640.webp 640w,
-                      {{ site.baseurl }}/assets/images/articles/2025/september/september-800.webp 800w
+                      /assets/images/articles/2025/september/september-320.webp 320w,
+                      /assets/images/articles/2025/september/september-480.webp 480w,
+                      /assets/images/articles/2025/september/september-640.webp 640w,
+                      /assets/images/articles/2025/september/september-800.webp 800w
                     "
                     sizes="(min-width: 1200px) 400px, 33.3vw"
                   />
                   <img
                     alt="Femme dormant paisiblement dans une chambre lumineuse"
-                    src="{{ site.baseurl }}/assets/images/articles/2025/september/september-640.jpg"
+                    src="/assets/images/articles/2025/september/september-640.jpg"
                     srcset="
-                      {{ site.baseurl }}/assets/images/articles/2025/september/september-320.jpg 320w,
-                      {{ site.baseurl }}/assets/images/articles/2025/september/september-480.jpg 480w,
-                      {{ site.baseurl }}/assets/images/articles/2025/september/september-640.jpg 640w,
-                      {{ site.baseurl }}/assets/images/articles/2025/september/september-800.jpg 800w
+                      /assets/images/articles/2025/september/september-320.jpg 320w,
+                      /assets/images/articles/2025/september/september-480.jpg 480w,
+                      /assets/images/articles/2025/september/september-640.jpg 640w,
+                      /assets/images/articles/2025/september/september-800.jpg 800w
                     "
                     sizes="(min-width: 1200px) 400px, 33.3vw"
                     width="640"
@@ -1281,7 +1237,7 @@
                   serein, en complément des séances.
                 </p>
                 <a
-                  href="{{ site.baseurl }}/actualites/2025/09"
+                  href="/actualites/2025/09"
                   class="btn btn-link text-brand no-underline p-be-m p-i-m"
                   >Lire la suite</a
                 >
@@ -1293,31 +1249,31 @@
                   <source
                     type="image/avif"
                     srcset="
-                      {{ site.baseurl }}/assets/images/articles/2025/august/august-320.avif 320w,
-                      {{ site.baseurl }}/assets/images/articles/2025/august/august-480.avif 480w,
-                      {{ site.baseurl }}/assets/images/articles/2025/august/august-640.avif 640w,
-                      {{ site.baseurl }}/assets/images/articles/2025/august/august-800.avif 800w
+                      /assets/images/articles/2025/august/august-320.avif 320w,
+                      /assets/images/articles/2025/august/august-480.avif 480w,
+                      /assets/images/articles/2025/august/august-640.avif 640w,
+                      /assets/images/articles/2025/august/august-800.avif 800w
                     "
                     sizes="(min-width: 1200px) 400px, 33.3vw"
                   />
                   <source
                     type="image/webp"
                     srcset="
-                      {{ site.baseurl }}/assets/images/articles/2025/august/august-320.webp 320w,
-                      {{ site.baseurl }}/assets/images/articles/2025/august/august-480.webp 480w,
-                      {{ site.baseurl }}/assets/images/articles/2025/august/august-640.webp 640w,
-                      {{ site.baseurl }}/assets/images/articles/2025/august/august-800.webp 800w
+                      /assets/images/articles/2025/august/august-320.webp 320w,
+                      /assets/images/articles/2025/august/august-480.webp 480w,
+                      /assets/images/articles/2025/august/august-640.webp 640w,
+                      /assets/images/articles/2025/august/august-800.webp 800w
                     "
                     sizes="(min-width: 1200px) 400px, 33.3vw"
                   />
                   <img
                     alt="Thérapeute soutenant un enfant lors d'un exercice"
-                    src="{{ site.baseurl }}/assets/images/articles/2025/august/august-640.jpg"
+                    src="/assets/images/articles/2025/august/august-640.jpg"
                     srcset="
-                      {{ site.baseurl }}/assets/images/articles/2025/august/august-320.jpg 320w,
-                      {{ site.baseurl }}/assets/images/articles/2025/august/august-480.jpg 480w,
-                      {{ site.baseurl }}/assets/images/articles/2025/august/august-640.jpg 640w,
-                      {{ site.baseurl }}/assets/images/articles/2025/august/august-800.jpg 800w
+                      /assets/images/articles/2025/august/august-320.jpg 320w,
+                      /assets/images/articles/2025/august/august-480.jpg 480w,
+                      /assets/images/articles/2025/august/august-640.jpg 640w,
+                      /assets/images/articles/2025/august/august-800.jpg 800w
                     "
                     sizes="(min-width: 1200px) 400px, 33.3vw"
                     width="640"
@@ -1336,7 +1292,7 @@
                   simples et réalistes.
                 </p>
                 <a
-                  href="{{ site.baseurl }}/actualites/2025/08"
+                  href="/actualites/2025/08"
                   class="btn btn-link text-brand no-underline p-be-m p-i-m"
                   >Lire la suite</a
                 >
@@ -1442,44 +1398,34 @@
               <nav aria-label="Navigation du site">
                 <ul class="list-dash">
                   <li>
-                    <a
-                      class="no-underline hover-primary-700"
-                      href="{{ site.baseurl }}/"
+                    <a class="no-underline hover-primary-700" href="/"
                       >Accueil</a
                     >
                   </li>
                   <li>
-                    <a
-                      class="no-underline hover-primary-700"
-                      href="{{ site.baseurl }}/a-propos"
+                    <a class="no-underline hover-primary-700" href="/a-propos"
                       >À propos</a
                     >
                   </li>
                   <li>
                     <a
                       class="no-underline hover-primary-700"
-                      href="{{ site.baseurl }}/les-bienfaits"
+                      href="/les-bienfaits"
                       >Les Bienfaits</a
                     >
                   </li>
                   <li>
-                    <a
-                      class="no-underline hover-primary-700"
-                      href="{{ site.baseurl }}/actualites"
+                    <a class="no-underline hover-primary-700" href="/actualites"
                       >Actualités</a
                     >
                   </li>
                   <li>
-                    <a
-                      class="no-underline hover-primary-700"
-                      href="{{ site.baseurl }}/tarifs"
+                    <a class="no-underline hover-primary-700" href="/tarifs"
                       >Tarifs</a
                     >
                   </li>
                   <li>
-                    <a
-                      class="no-underline hover-primary-700"
-                      href="{{ site.baseurl }}/contact"
+                    <a class="no-underline hover-primary-700" href="/contact"
                       >Contact</a
                     >
                   </li>
@@ -1495,49 +1441,49 @@
                   <li>
                     <a
                       class="no-underline hover-primary-700"
-                      href="{{ site.baseurl }}/les-bienfaits/stress-et-anxiete"
+                      href="/les-bienfaits/stress-et-anxiete"
                       >Stress et anxiété</a
                     >
                   </li>
                   <li>
                     <a
                       class="no-underline hover-primary-700"
-                      href="{{ site.baseurl }}/les-bienfaits/sommeil-et-fatigue"
+                      href="/les-bienfaits/sommeil-et-fatigue"
                       >Sommeil et fatigue</a
                     >
                   </li>
                   <li>
                     <a
                       class="no-underline hover-primary-700"
-                      href="{{ site.baseurl }}/les-bienfaits/concentration-et-clarte-mentale"
+                      href="/les-bienfaits/concentration-et-clarte-mentale"
                       >Concentration et clarté mentale</a
                     >
                   </li>
                   <li>
                     <a
                       class="no-underline hover-primary-700"
-                      href="{{ site.baseurl }}/les-bienfaits/enfants-et-adolescents"
+                      href="/les-bienfaits/enfants-et-adolescents"
                       >Enfants et adolescent·e·s</a
                     >
                   </li>
                   <li>
                     <a
                       class="no-underline hover-primary-700"
-                      href="{{ site.baseurl }}/les-bienfaits/performance-et-developpement"
+                      href="/les-bienfaits/performance-et-developpement"
                       >Performance et développement</a
                     >
                   </li>
                   <li>
                     <a
                       class="no-underline hover-primary-700"
-                      href="{{ site.baseurl }}/les-bienfaits/neuroatypique"
+                      href="/les-bienfaits/neuroatypique"
                       >Neuroatypique</a
                     >
                   </li>
                   <li>
                     <a
                       class="no-underline hover-primary-700"
-                      href="{{ site.baseurl }}/les-bienfaits/degenerescence-cognitive"
+                      href="/les-bienfaits/degenerescence-cognitive"
                       >Dégénérescence cognitive</a
                     >
                   </li>
